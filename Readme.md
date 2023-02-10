@@ -24,7 +24,11 @@ A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficie
 
 ### &nbsp;&nbsp;&nbsp; III - Pull do GitHub para o computador (em desenvolvimento)
 
-### &nbsp;&nbsp;&nbsp; III - Pull do GitHub para o computador (em desenvolvimento)
+### &nbsp;&nbsp;&nbsp; IV - Criação de diferentes branchs (em desenvolvimento)
+
+### &nbsp;&nbsp;&nbsp; V - Junção de branchs (merge) (em desenvolvimento)
+
+### &nbsp;&nbsp;&nbsp; VI - Pull requests (em desenvolvimento)
 
 ---
 
