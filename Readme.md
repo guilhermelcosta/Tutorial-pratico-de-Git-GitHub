@@ -38,7 +38,7 @@ Após finalizar o download, basta seguir o fluxo normal de instalação até que
 
 ### _II.1 Criando um repositório local_
 
-1. Crie uma nova pasta no seu computador para utilizarmos nesse tutorial. Para fins de exemplificação, vou usar como nome `Tutorial Git`, mas sinta-se a vontade de usar o nome que preferir.
+1. Crie uma nova pasta no seu computador para utilizarmos nesse tutorial. Para fins de exemplificação, vou usar como nome `Tutorial Git`, mas sinta-se a vontade para usar o nome que preferir.
 
 
 2. Com o Visual Studio Code (VS Code) aberto, clique em `Open Folder...` para abrir a pasta que acabamos de criar.
@@ -50,13 +50,13 @@ Após finalizar o download, basta seguir o fluxo normal de instalação até que
         <img width="300px" height="400px" src="./assets/img/open-folder.jpg">
 
 
-3. Vamos criar um arquivo `README.md` em nossa pasta. Esse arquivo será utilizado apenas como referência que no tutorial, mas a mesma sequência se aplicaria para quaisquer arquivos que você criasse em sua pasta (.html, .js, .json, etc). Vamos colocar algum texto em nosso `README.md`, apenas para ele não ficar vazio.
+3. Vamos criar um arquivo `README.md` em nossa pasta. Esse arquivo será utilizado apenas como referência no tutorial, mas a mesma sequência de passos se aplicaria para quaisquer arquivos que você criasse em sua pasta (.html, .js, .json, etc). Vou colocar algum texto em nosso `README.md`, apenas para ele não ficar vazio.
 
 
     <img src="./assets/img/criando-README.jpg">
 
 
-4. Vá até a pasta que você cruiou no item 1., e, clicando com botão direito dentro dela, clique em `Git Bash Here`, isso fará com que o terminal do Git seja aberto.
+4. Vá até a pasta que você criou no item 1, e, clicando com botão direito dentro dela, clique em `Git Bash Here`, isso fará com que o terminal do Git Bash seja aberto.
 
 
    <img src="./assets/img/abrir-gitbash.jpg">
@@ -68,25 +68,25 @@ Após finalizar o download, basta seguir o fluxo normal de instalação até que
        <img src="./assets/img/pagina-gitbash.jpg">
 
 
-5. A primeira coisa que precisamos fazer ao usar o Git pela primeira vez é configurar nosso `user name` e `e-mail`. Para isso vamos usar os seguintes códigos (um de cada vez):
+5. A primeira coisa que precisamos fazer ao usar o Git Bash pela primeira vez é configurar nosso `user name` e `e-mail`. Para isso vamos usar os seguintes códigos (um de cada vez):
 
 
-   - `git config --global user.name <usuario>` -> Exemplo prático: `git config --global user.name "João Bicicleta"`.
+   - `git config --global user.name <usuario>` -> Exemplo prático: `git config --global user.name "James Manteiguinha"`.
 
 
-   - `git config --global user.email <email>` -> Exemplo prático: `git config --global user.email joao.bicicleta@email.com"`.
+   - `git config --global user.email <email>` -> Exemplo prático: `git config --global user.email james.manteiguinha@email.com"`.
 
 
-   - Note que o terminal não irá apresentar nenhuma informação depois que inserimos esses dois códigos. Esse é um comportamento esperado, ele só irá retornar algo em caso de erro.
+   - Note que o terminal não irá apresentar nenhuma informação depois que inserirmos esses dois códigos. Esse é um comportamento esperado, ele só irá retornar algo em caso de erro.
 
 
-6. Para "inicializar" nosso repositório local, nós vamos usar o comando `git init`. Dessa vez, note que houve três alterações que podemos observar:
+6. Para "inicializar" nosso repositório local, nós vamos usar o comando `git init`. Dessa vez, houve três alterações que podemos observar:
 
 
-   - O terminos nos informou `Initialized empty Git repository in C:...`. O que significa que nossa pasta agora é um repositório local.
+   - O terminos nos informou `Initialized empty Git repository in C:/...`. O que significa que nossa pasta agora é um repositório local.
 
 
-   - Note que ao lado do caminho da nossa pasta, agora é apresentado o termo `(master)`. Voltarei a comentar disso em um tópico mais adiante.
+   - Note que ao lado do caminho da nossa pasta no Git Bash, agora é apresentado o termo `(master)`. Voltarei a comentar disso em um tópico mais adiante.
 
 
         <img src="./assets/img/git-master.jpg">
@@ -101,28 +101,28 @@ Após finalizar o download, basta seguir o fluxo normal de instalação até que
 ### _II.2 Criando um repositório remoto_
 
 
-1. Acesse a sua conta do GitHub, caso você não tenha, ela pode ser criada [clicando aqui](https://github.com/).
+1. Acesse a sua conta do GitHub, caso você não tenha, ela pode ser criada no site oficial do [GitHub](https://github.com/).
 
 
 2. Em seu perfil, acesse a aba de repositórios e clique em `New` para criar um novo repositório.
 
 
-<img src="./assets/img/new-repositorio.jpg">
+    <img src="./assets/img/new-repositorio.jpg">
 
 
 3. Vou nomear o repositório como `Tutorial Git`, assim como a pasta que criei anteriormente. Isso não é obrigatório, apenas estou adotando para seguir um padrão. As demais configurações do repositório podem permanescer como estão.
 
 
-<img src="./assets/img/tutorial-repositorio.jpg">
+    <img src="./assets/img/tutorial-repositorio.jpg">
 
 
-4. Pronto, nosso repositório remoto foi criado! O próximo passo é fazer a interligação entre ele e nosso repositório local, criado no [Tópico 2](#2-criando-um-repositório-local-computador).
+4. Pronto, nosso repositório remoto foi criado! O próximo passo é fazer a interligação entre ele e nosso repositório local, criado no [item II.1](#ii1-criando-um-repositório-local).
 
 
-### _II.3 Interligando repositório remoto ao local_
+### _II.3 Interligando o seu repositório remoto ao local_
 
 
-1. Primeiramente, vamos trocar o nome da nossa branch (ramificação) de `master` para `main`. Pois grande parte do mercado adota a nomeclatura de `main`, de forma que sua utilização é boa prática. Para isso, vamos utilizar o seguinte código:
+1. Primeiramente, vamos trocar o nome da nossa branch (ramo) de `master` para `main`, pois grande parte do mercado atualmente adota a nomeclatura de `main`, de forma que sua utilização é boa prática. Para isso, vamos utilizar o seguinte código:
 
 
    - `git branch -M <nome da branch>` -> Exemplo prático: `git branch -M "main"`.
@@ -134,7 +134,7 @@ Após finalizar o download, basta seguir o fluxo normal de instalação até que
    - `git add <arquivo>` -> Exemplo prático: `git add README.md`.
 
 
-   - Como o único arquivo que nós temos no repositório é o README.md, podemos especificar ele em nossa linha de código conforme mostrado acima. Caso você tenha vários arquivos, e queira adicionar a todos, você vai utilizar, no lugar do nome do arquivo um ponto final, ficando assim o código: `git add .`.
+   - Como o único arquivo que nós temos no repositório é o `README.md`, podemos especificar ele em nossa linha de código conforme mostrado acima. Caso você tenha vários arquivos, e queira adicionar a todos, você vai utilizar, no lugar do nome do arquivo um ponto final, ficando assim o código: `git add .`.
 
 
 3. Feito isso, nossos arquivos estão prontos para serem commitados. Para fazer isso, usaremos o código `git commit -m <mensagem>`, sendo que na área de mensagem, vamos inserir a descrição do que estamos commitando. Ou seja, quais alterações fizemos no arquivo, por exemplo `git commit -m "Primeiro commit"`.
@@ -159,6 +159,9 @@ Quase pronto! Seus repositórios já estão interligados, o que falta agora é a
 
 
 Insira no terminal a seguinte linha de código: `git push -u origin main`. O que esse comando quer dizer é que estamos dando um push de arquivos da nossa branch `main` na nossa `origin` (GitHub).
+
+
+* _Observação: no código referido acima, o `-u` é colocado estritamente apenas no **primeiro push**, não sendo necessário nos demais._
 
 
 Pronto, apenas! Feito isso, basta recarregar seu navegador, que os arquivos já estarão sincronizados.
