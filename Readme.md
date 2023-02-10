@@ -48,7 +48,11 @@ Hora de usar o Git!
 6. Para "inicializar" nosso repositório local, nós vamos usar o comando `git init`. Dessa vez, note que houve três alterações que podemos observar:
 
     - O terminos nos informou `Initialized empty Git repository in C:...`. O que significa que nossa pasta agora é um repositório local.
-    - Note que ao lado do caminho da nossa pasta, agora é apresentado o termo `(Master)`
+
+    - Note que ao lado do caminho da nossa pasta, agora é apresentado o termo `(Master)`.
+
     <img src="./assets/img/git-master.jpg">
+
     - Uma pasta oculta `.git` foi criada em nosso repositório. Caso você não esteja vendo esta pasta, é porque sua visualização de pastas ocultas está desativada.
+    
     <img src="./assets/img/repositorio-git-init.jpg">
