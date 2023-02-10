@@ -27,4 +27,4 @@ Após download, basta seguir o fluxo normal de instalação até que ela seja fi
 
 3. Vamos criar um arquivo `README.md` em nossa pasta. Esse arquivo será utilizado apenas como referência que no tutorial, mas a mesma sequência se aplicaria para quaisquer arquivos que você criasse em sua pasta (.html, .js, .json, etc). Vamos colocar algum texto em nosso `README.md`, apenas para ele não ficar vazio.
 
-    <img width="400px" height="300px" src="./assets/img/criando-README.jpg">
+    <img src="./assets/img/criando-README.jpg">
