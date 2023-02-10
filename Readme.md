@@ -24,6 +24,8 @@ A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficie
 
 ### &nbsp;&nbsp;&nbsp; III - Pull do GitHub para o computador (em desenvolvimento)
 
+### &nbsp;&nbsp;&nbsp; III - Pull do GitHub para o computador (em desenvolvimento)
+
 ---
 
 ## I. Instalando o Git Bash
@@ -165,3 +167,14 @@ Insira no terminal a seguinte linha de código: `git push -u origin main`. O que
 
 
 Pronto, apenas! Feito isso, basta recarregar seu navegador, que os arquivos já estarão sincronizados.
+
+
+Além disso, lembre-se que caso você adione, delete ou altere qualquer arquivo em seu repositório local, basta usar os seguintes comandos para dar o push deles:
+
+```
+git add <arquivos ou .>
+
+git commit -m <mensagem>
+
+git push origin <nova da branch>
+```
