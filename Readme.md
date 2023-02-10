@@ -45,7 +45,7 @@ Após download, basta seguir o fluxo normal de instalação até que ela seja fi
 3. Vamos criar um arquivo `README.md` em nossa pasta. Esse arquivo será utilizado apenas como referência que no tutorial, mas a mesma sequência se aplicaria para quaisquer arquivos que você criasse em sua pasta (.html, .js, .json, etc). Vamos colocar algum texto em nosso `README.md`, apenas para ele não ficar vazio.
 
 
-<img src="./assets/img/criando-README.jpg">
+    <img src="./assets/img/criando-README.jpg">
 
 
 4. Vá até a pasta que você cruiou no item 1., e, clicando com botão direito dentro dela, clique em `Git Bash Here`, isso fará com que o terminal do Git seja aberto.
@@ -81,13 +81,13 @@ Após download, basta seguir o fluxo normal de instalação até que ela seja fi
    - Note que ao lado do caminho da nossa pasta, agora é apresentado o termo `(master)`. Voltarei a comentar disso em um tópico mais adiante.
 
 
-       <img src="./assets/img/git-master.jpg">
+        <img src="./assets/img/git-master.jpg">
 
 
    - Uma pasta oculta `.git` foi criada em nosso repositório. Caso você não esteja vendo esta pasta, é porque sua visualização de pastas ocultas está desativada.
 
 
-       <img src="./assets/img/repositorio-git-init.jpg">
+        <img src="./assets/img/repositorio-git-init.jpg">
 
 
 ## 3. Criando um repositório remoto (GitHub)
