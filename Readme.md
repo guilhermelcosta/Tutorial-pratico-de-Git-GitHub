@@ -10,15 +10,15 @@ A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficie
 
 ## Índice de assuntos
 
-### [I. Instalando o Git Bash](#1-instalando-o-git-bash)
+### &nbsp;&nbsp;&nbsp; [I. Instalando o Git Bash](#1-instalando-o-git-bash)
 
-### [II. Criando um repositório local (Computador)](#2-criando-um-repositório-local-computador)
+### &nbsp;&nbsp;&nbsp; [II. Criando um repositório local (Computador)](#2-criando-um-repositório-local-computador)
 
-### [III. Criando um repositório remoto (GitHub)](#3-criando-um-repositório-remoto-github)
+### &nbsp;&nbsp;&nbsp; [III. Criando um repositório remoto (GitHub)](#3-criando-um-repositório-remoto-github)
 
-### [IV. Interligando repositório remoto (GitHub) ao local (Computador)](#4-interligando-repositório-remoto-github-ao-local-computador)
+### &nbsp;&nbsp;&nbsp; [IV. Interligando repositório remoto (GitHub) ao local (Computador)](#4-interligando-repositório-remoto-github-ao-local-computador)
 
-### [V. Realizando o primeiro push dos seus arquivos para o repositório](#5-realizando-o-primeiro-push-dos-seus-arquivos-para-o-repositório)
+### &nbsp;&nbsp;&nbsp; [V. Realizando o primeiro push dos seus arquivos para o repositório](#5-realizando-o-primeiro-push-dos-seus-arquivos-para-o-repositório)
 
 ---
 
@@ -33,9 +33,10 @@ Após download, basta seguir o fluxo normal de instalação até que ela seja fi
 1. Crie uma nova pasta no seu computador para utilizarmos nesse tutorial. Para fins de exemplificação, vou usar como nome `Tutorial Git`, mas sinta-se a vontade de usar o nome que preferir.
 
 
-2. Com o Visual Studio Code (VS Code) aberto, clique em "Open folder..." para abrir a pasta que acabamos de criar (ou Ctrl+K > Ctrl+O).
+2. Com o Visual Studio Code (VS Code) aberto, clique em `Open Folder...` para abrir a pasta que acabamos de criar.
 
-   - Caso você não tenha o VS Code instalado, o download pode ser feito [clicando aqui](https://code.visualstudio.com/download).
+
+   - Caso você não tenha o VS Code instalado, o download pode ser feito em seu [site oficial](https://code.visualstudio.com/download).
 
 
         <img width="300px" height="400px" src="./assets/img/open-folder.jpg">
@@ -112,30 +113,44 @@ Após download, basta seguir o fluxo normal de instalação até que ela seja fi
 
 ## 4. Interligando repositório remoto (GitHub) ao local (Computador)
 
+
 1. Primeiramente, vamos trocar o nome da nossa branch (ramificação) de `master` para `main`. Pois grande parte do mercado adota a nomeclatura de `main`, de forma que sua utilização é boa prática. Para isso, vamos utilizar o seguinte código:
+
 
    - `git branch -M <nome da branch>` -> Exemplo prático: `git branch -M "main"`.
 
+
 2. Para fazer um commit, ou seja, primeiro precisamos retira-los do nosso diretório de trabalho e "prepara-los" para serem commitados (staging area). Para isso, usaremos o seguinte código:
+
 
    - `git add <arquivo>` -> Exemplo prático: `git add README.md`.
 
+
    - Como o único arquivo que nós temos no repositório é o README.md, podemos especificar ele em nossa linha de código conforme mostrado acima. Caso você tenha vários arquivos, e queira adicionar a todos, você vai utilizar, no lugar do nome do arquivo um ponto final, ficando assim o código: `git add .`.
+
 
 3. Feito isso, nossos arquivos estão prontos para serem commitados. Para fazer isso, usaremos o código `git commit -m <mensagem>`, sendo que na área de mensagem, vamos inserir a descrição do que estamos commitando. Ou seja, quais alterações fizemos no arquivo, por exemplo `git commit -m "Primeiro commit"`.
 
+
 Seus arquivos foram commitados, agora, vamos estabelecer o link entre nosso repositório local com o remoto, de modo que os itens de seu computador sejam "transferidos" para o seu GitHub.
+
 
 4. Para isso, vamos usar o código `git remote add origin <link do repositório>`. O link do repositório pode ser obtido ao clicar no botão de `<> Code` do GitHub, conforme indicado abaixo.
 
+
    <img src="./assets/img/link-repositorio.jpg">
+
 
    - O exemplo de uso na prática ficaria assim: `git remote add origin https://github.com/guilhermelcosta/Tutorial-Git.git`.
 
+
 Quase pronto! Seus repositórios já estão interligados, o que falta agora é apenas "transferir" os arquivos locais para o repositório remoto, usando o comando `push`.
+
 
 ## 5. Realizando o primeiro push dos seus arquivos para o repositório
 
+
 Insira no terminal a seguinte linha de código: `git push -u origin main`. O que esse comando quer dizer é que estamos dando um push de arquivos da nossa branch `main` na nossa `origin` (GitHub).
+
 
 Pronto, apenas! Feito isso, basta recarregar seu navegador, que os arquivos já estarão sincronizados.
