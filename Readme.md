@@ -12,7 +12,7 @@ A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficie
 
 ## 1. Instalando o Git Bash
 
-O primeiro passo para nosso tutorial é baixar o Git Bash, caso você ainda não o tenha em seu computador. O link para download pode ser acessado [clicando aqui](https://git-scm.com/downloads).
+O primeiro passo do tutorial é baixar o Git Bash, caso você ainda não o tenha em seu computador. O link para download pode ser acessado [clicando aqui](https://git-scm.com/downloads).
 
 Após download, basta seguir o fluxo normal de instalação até que ela seja finalizada.
 
@@ -23,6 +23,6 @@ Após download, basta seguir o fluxo normal de instalação até que ela seja fi
 2. Com o Visual Studio Code (VS Code) aberto, clique em "Open folder..." para abrir a pasta que acabamos de criar (ou Ctrl+K > Ctrl+O).
    - Caso você não tenha o VS Code instalado, o download pode ser feito [clicando aqui](https://code.visualstudio.com/download).
 
-<img src="./assets/img/open-folder.jpg">
+<img width="150px" height="250px" src="./assets/img/open-folder.jpg">
 
 3.
