@@ -10,19 +10,20 @@ A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficie
 
 ## Índice de assuntos
 
-### &nbsp;&nbsp;&nbsp; [I. Instalando o Git Bash](#i-instalando-o-git-bash-1)
+### &nbsp;&nbsp;&nbsp; [I - Instalando o Git Bash](#i-instalando-o-git-bash)
 
-### &nbsp;&nbsp;&nbsp; [II. Push do computador para o GitHub](#ii-push-do-computador-para-o-github-1)
+### &nbsp;&nbsp;&nbsp; II - Push do computador para o GitHub
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.1 Criando um repositório local (Computador)_](#ii1-criando-um-repositc3b3rio-local-computador-1)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.1 - Criando um repositório local (Computador)_](#ii1-criando-um-repositório-local-computador)
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.2 Criando um repositório remoto (GitHub)_](#3-criando-um-repositório-remoto-github)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.2 - Criando um repositório remoto (GitHub)_](#ii2-criando-um-repositório-remoto-github)
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.3 Interligando repositório remoto (GitHub) ao local (Computador)_](#4-interligando-repositório-remoto-github-ao-local-computador)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.3 - Interligando repositório remoto (GitHub) ao local (Computador)_](#ii3-interligando-repositório-remoto-github-ao-local-computador)
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.4 Realizando o primeiro push dos seus arquivos para o repositório_](#5-realizando-o-primeiro-push-dos-seus-arquivos-para-o-repositório)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.4 - Realizando o primeiro push dos seus arquivos para o repositório_](#ii4-realizando-o-primeiro-push-dos-seus-arquivos-para-o-repositório)
 
-### &nbsp;&nbsp;&nbsp; III. Pull do GitHub para o computador (em desenvolvimento)
+### &nbsp;&nbsp;&nbsp; III - Pull do GitHub para o computador (em desenvolvimento)
+
 ---
 
 ## I. Instalando o Git Bash
