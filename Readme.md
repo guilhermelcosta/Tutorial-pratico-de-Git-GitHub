@@ -1,7 +1,5 @@
 # Tutorial prático de Git (bash) e GitHub
 
-****FALAR DE STATUS
-
 ## Primeiramente, para que serve o Git e GitHub?
 
 Git é um sistema de controle de versão distribuído que ajuda você (e demais pessoas envolvidas em um projeto) a acompanhar as alterações em seu código ao longo do tempo. GitHub é uma plataforma baseada na web que fornece hospedagem para repositórios Git, tornando mais fácil para você armazenar, gerenciar e colaborar em seu código.
@@ -9,6 +7,16 @@ Git é um sistema de controle de versão distribuído que ajuda você (e demais 
 A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficiente de gerenciar e colaborar em projetos de software. Com o Git, você pode manter o histórico de todas as alterações feitas no seu código e reverter facilmente as alterações indesejadas. O GitHub permite que você armazene seus projetos na nuvem, o que significa que é possível acessá-los de qualquer lugar e compartilhá-los com outros desenvolvedores. Além disso, o GitHub oferece uma ampla comunidade de desenvolvedores que você pode colaborar e aprender, quase como uma rede social propriamente dita.
 
 ## Índice de assuntos
+
+### [1. Instalando o Git Bash](##1.instalando-o-git-bash)
+
+### 2. Criando um repositório local (Computador)
+
+### 3. Criando um repositório remoto (GitHub)
+
+### 4. Interligando repositório remoto (GitHub) ao local (Computador)
+
+### 5. Realizando o primeiro push dos seus arquivos para o repositório
 
 ---
 
@@ -18,7 +26,7 @@ O primeiro passo do tutorial é baixar o Git Bash, caso você ainda não o tenha
 
 Após download, basta seguir o fluxo normal de instalação até que ela seja finalizada.
 
-## <a name="topico-2">2. Criando um repositório local (Computador)</a>
+## 2. Criando um repositório local (Computador)
 
 1. Crie uma nova pasta no seu computador para utilizarmos nesse tutorial. Para fins de exemplificação, vou usar como nome `Tutorial Git`, mas sinta-se a vontade de usar o nome que preferir.
 
@@ -72,7 +80,7 @@ Após download, basta seguir o fluxo normal de instalação até que ela seja fi
 
     <img src="./assets/img/tutorial-repositorio.jpg">
 
-4. Pronto, nosso repositório remoto foi criado! O próximo passo é fazer a interligação entre ele e nosso repositório local, criado no [Tópico 2](#topico-2)
+4. Pronto, nosso repositório remoto foi criado! O próximo passo é fazer a interligação entre ele e nosso repositório local, criado no [Tópico 2](##2.-criando-um-repositório-local-(computador)).
 
 ## 4. Interligando repositório remoto (GitHub) ao local (Computador)
 
@@ -98,6 +106,8 @@ Seus arquivos foram commitados, agora, vamos estabelecer o link entre nosso repo
 
 Quase pronto! Seus repositórios já estão interligados, o que falta agora é apenas "transferir" os arquivos locais para o repositório remoto, usando o comando `push`.
 
-5. Insira no terminal a seguinte linha de código: `git push -u origin main`. O que esse comando quer dizer é que estamos dando um push de arquivos da nossa branch `main` na nossa `origin` (GitHub).
+## 5. Realizando o primeiro push dos seus arquivos para o repositório
 
-Pronto! Feito isso, basta recarregar seu navegador, que os arquivos já estarão sincronizados.
+Insira no terminal a seguinte linha de código: `git push -u origin main`. O que esse comando quer dizer é que estamos dando um push de arquivos da nossa branch `main` na nossa `origin` (GitHub).
+
+Pronto, apenas! Feito isso, basta recarregar seu navegador, que os arquivos já estarão sincronizados.
