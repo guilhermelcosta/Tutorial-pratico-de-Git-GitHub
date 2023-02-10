@@ -37,7 +37,7 @@ Hora de usar o Git!
 
     - Uma janela semelhante a essa será aberta:
 
-    <img src="./assets/img/pagina-gitbash.jpg">
+        <img src="./assets/img/pagina-gitbash.jpg">
 
 5. A primeira coisa que precisamos fazer ao usar o Git pela primeira vez é configurar nosso `user name` e `e-mail`. Para isso vamos usar os seguintes códigos (um de cada vez):
 
@@ -49,10 +49,10 @@ Hora de usar o Git!
 
     - O terminos nos informou `Initialized empty Git repository in C:...`. O que significa que nossa pasta agora é um repositório local.
 
-    - Note que ao lado do caminho da nossa pasta, agora é apresentado o termo `(Master)`.
+    - Note que ao lado do caminho da nossa pasta, agora é apresentado o termo `(master)`.
 
-    <img src="./assets/img/git-master.jpg">
+        <img src="./assets/img/git-master.jpg">
 
     - Uma pasta oculta `.git` foi criada em nosso repositório. Caso você não esteja vendo esta pasta, é porque sua visualização de pastas ocultas está desativada.
-    
-    <img src="./assets/img/repositorio-git-init.jpg">
+
+        <img src="./assets/img/repositorio-git-init.jpg">
