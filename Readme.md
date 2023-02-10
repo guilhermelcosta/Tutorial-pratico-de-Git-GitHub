@@ -71,10 +71,10 @@ Após finalizar o download, basta seguir o fluxo normal de instalação até que
 5. A primeira coisa que precisamos fazer ao usar o Git Bash pela primeira vez é configurar nosso `user name` e `e-mail`. Para isso vamos usar os seguintes códigos (um de cada vez):
 
 
-   - `git config --global user.name <usuario>` -> Exemplo prático: `git config --global user.name "James Manteiguinha"`.
+   - `git config --global user.name <usuario>` &rarr; Exemplo prático: `git config --global user.name "James Manteiguinha"`.
 
 
-   - `git config --global user.email <email>` -> Exemplo prático: `git config --global user.email james.manteiguinha@email.com"`.
+   - `git config --global user.email <email>` &rarr; Exemplo prático: `git config --global user.email james.manteiguinha@email.com"`.
 
 
    - Note que o terminal não irá apresentar nenhuma informação depois que inserirmos esses dois códigos. Esse é um comportamento esperado, ele só irá retornar algo em caso de erro.
@@ -125,13 +125,13 @@ Após finalizar o download, basta seguir o fluxo normal de instalação até que
 1. Primeiramente, vamos trocar o nome da nossa branch (ramo) de `master` para `main`, pois grande parte do mercado atualmente adota a nomeclatura de `main`, de forma que sua utilização é boa prática. Para isso, vamos utilizar o seguinte código:
 
 
-   - `git branch -M <nome da branch>` -> Exemplo prático: `git branch -M "main"`.
+   - `git branch -M <nome da branch>` &rarr; Exemplo prático: `git branch -M "main"`.
 
 
 2. Para fazer um commit, ou seja, primeiro precisamos retira-los do nosso diretório de trabalho e "prepara-los" para serem commitados (staging area). Para isso, usaremos o seguinte código:
 
 
-   - `git add <arquivo>` -> Exemplo prático: `git add README.md`.
+   - `git add <arquivo>` &rarr; Exemplo prático: `git add README.md`.
 
 
    - Como o único arquivo que nós temos no repositório é o `README.md`, podemos especificar ele em nossa linha de código conforme mostrado acima. Caso você tenha vários arquivos, e queira adicionar a todos, você vai utilizar, no lugar do nome do arquivo um ponto final, ficando assim o código: `git add .`.
