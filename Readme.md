@@ -14,11 +14,11 @@ A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficie
 
 ### &nbsp;&nbsp;&nbsp; II - Push do computador para o GitHub
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.1 - Criando um repositório local (Computador)_](#ii1-criando-um-repositório-local-computador)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.1 - Criando um repositório local_](#ii1-criando-um-repositório-local)
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.2 - Criando um repositório remoto (GitHub)_](#ii2-criando-um-repositório-remoto-github)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.2 - Criando um repositório remoto_](#ii2-criando-um-repositório-remoto)
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.3 - Interligando repositório remoto (GitHub) ao local (Computador)_](#ii3-interligando-repositório-remoto-github-ao-local-computador)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.3 - Interligando repositório remoto ao local_](#ii3-interligando-repositório-remoto-ao-local)
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.4 - Realizando o primeiro push dos seus arquivos para o repositório_](#ii4-realizando-o-primeiro-push-dos-seus-arquivos-para-o-repositório)
 
@@ -36,7 +36,7 @@ Após finalizar o download, basta seguir o fluxo normal de instalação até que
 ## II. Push do computador para o GitHub
 
 
-### &nbsp;&nbsp;&nbsp; _II.1 Criando um repositório local (Computador)_
+### _II.1 Criando um repositório local_
 
 1. Crie uma nova pasta no seu computador para utilizarmos nesse tutorial. Para fins de exemplificação, vou usar como nome `Tutorial Git`, mas sinta-se a vontade de usar o nome que preferir.
 
@@ -98,7 +98,7 @@ Após finalizar o download, basta seguir o fluxo normal de instalação até que
         <img src="./assets/img/repositorio-git-init.jpg">
 
 
-## &nbsp;&nbsp;&nbsp; _II.2 Criando um repositório remoto (GitHub)_
+### _II.2 Criando um repositório remoto_
 
 
 1. Acesse a sua conta do GitHub, caso você não tenha, ela pode ser criada [clicando aqui](https://github.com/).
@@ -119,7 +119,7 @@ Após finalizar o download, basta seguir o fluxo normal de instalação até que
 4. Pronto, nosso repositório remoto foi criado! O próximo passo é fazer a interligação entre ele e nosso repositório local, criado no [Tópico 2](#2-criando-um-repositório-local-computador).
 
 
-## &nbsp;&nbsp;&nbsp; _II.3 Interligando repositório remoto (GitHub) ao local (Computador)_
+### _II.3 Interligando repositório remoto ao local_
 
 
 1. Primeiramente, vamos trocar o nome da nossa branch (ramificação) de `master` para `main`. Pois grande parte do mercado adota a nomeclatura de `main`, de forma que sua utilização é boa prática. Para isso, vamos utilizar o seguinte código:
@@ -155,7 +155,7 @@ Seus arquivos foram commitados, agora, vamos estabelecer o link entre nosso repo
 Quase pronto! Seus repositórios já estão interligados, o que falta agora é apenas "transferir" os arquivos locais para o repositório remoto, usando o comando `push`.
 
 
-## &nbsp;&nbsp;&nbsp; _II.4 Realizando o primeiro push dos seus arquivos para o repositório_
+## _II.4 Realizando o primeiro push dos seus arquivos para o repositório_
 
 
 Insira no terminal a seguinte linha de código: `git push -u origin main`. O que esse comando quer dizer é que estamos dando um push de arquivos da nossa branch `main` na nossa `origin` (GitHub).
