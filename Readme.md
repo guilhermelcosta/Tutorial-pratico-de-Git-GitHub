@@ -8,7 +8,7 @@ A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficie
 
 ## Índice de assuntos
 
-### [1. Instalando o Git Bash](##instalando-o-git-bash)
+### [1. Instalando o Git Bash](#1.-instalando-o-git-bash)
 
 ### 2. Criando um repositório local (Computador)
 
