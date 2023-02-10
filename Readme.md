@@ -18,7 +18,7 @@ A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficie
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.2 - Criando um repositório remoto_](#ii2-criando-um-repositório-remoto)
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.3 - Interligando repositório remoto ao local_](#ii3-interligando-repositório-remoto-ao-local)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.3 - Interligando repositório remoto ao local_](#ii3-interligando-o-seu-repositório-remoto-ao-local)
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_II.4 - Realizando o primeiro push dos seus arquivos para o repositório_](#ii4-realizando-o-primeiro-push-dos-seus-arquivos-para-o-repositório)
 
