@@ -1,4 +1,4 @@
-# Tutorial prático de Git (bash) e GitHub
+# Tutorial prático de Git Bash e GitHub
 
 ## Primeiramente, para que serve o Git e GitHub?
 
@@ -6,30 +6,32 @@ Git é um sistema de controle de versão distribuído que ajuda você (e demais 
 
 A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficiente de gerenciar e colaborar em projetos de software. Com o Git, você pode manter o histórico de todas as alterações feitas no seu código e reverter facilmente as alterações indesejadas. O GitHub permite que você armazene seus projetos na nuvem, o que significa que é possível acessá-los de qualquer lugar e compartilhá-los com outros desenvolvedores. Além disso, o GitHub oferece uma ampla comunidade de desenvolvedores que você pode colaborar e aprender, quase como uma rede social propriamente dita.
 
+---
+
 ## Índice de assuntos
 
-### [1. Instalando o Git Bash](#-instalando-o-git-bash)
+### [I. Instalando o Git Bash](#1-instalando-o-git-bash)
 
-### 2. Criando um repositório local (Computador)
+### [II. Criando um repositório local (Computador)](#2-criando-um-repositório-local-computador)
 
-### 3. Criando um repositório remoto (GitHub)
+### [III. Criando um repositório remoto (GitHub)](#3-criando-um-repositório-remoto-github)
 
-### 4. Interligando repositório remoto (GitHub) ao local (Computador)
+### [IV. Interligando repositório remoto (GitHub) ao local (Computador)](#4-interligando-repositório-remoto-github-ao-local-computador)
 
-### 5. Realizando o primeiro push dos seus arquivos para o repositório
+### [V. Realizando o primeiro push dos seus arquivos para o repositório](#5-realizando-o-primeiro-push-dos-seus-arquivos-para-o-repositório)
 
 ---
 
 ## 1. Instalando o Git Bash
 
-O primeiro passo do tutorial é baixar o Git Bash, caso você ainda não o tenha em seu computador. O link para download pode ser acessado [clicando aqui](https://git-scm.com/downloads).
+O primeiro passo do tutorial é baixar o Git Bash, caso você ainda não o tenha em seu computador. O link para download pode ser acessado em [Git SCM](https://git-scm.com/downloads).
 
 Após download, basta seguir o fluxo normal de instalação até que ela seja finalizada.
 
 ## 2. Criando um repositório local (Computador)
 
 1. Crie uma nova pasta no seu computador para utilizarmos nesse tutorial. Para fins de exemplificação, vou usar como nome `Tutorial Git`, mas sinta-se a vontade de usar o nome que preferir.
-
+\
 2. Com o Visual Studio Code (VS Code) aberto, clique em "Open folder..." para abrir a pasta que acabamos de criar (ou Ctrl+K > Ctrl+O).
 
    - Caso você não tenha o VS Code instalado, o download pode ser feito [clicando aqui](https://code.visualstudio.com/download).
