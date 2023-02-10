@@ -53,7 +53,7 @@ Após finalizar o download, basta seguir o fluxo normal de instalação até que
    - Caso você não tenha o VS Code instalado, o download pode ser feito em seu [site oficial](https://code.visualstudio.com/download).
 
 
-        <img width="300px" height="400px" src="./assets/img/open-folder.jpg">
+        <img src="./assets/img/open-folder.jpg">
 
 
 3. Vamos criar um arquivo `README.md` em nossa pasta. Esse arquivo será utilizado apenas como referência no tutorial, mas a mesma sequência de passos se aplicaria para quaisquer arquivos que você criasse em sua pasta (.html, .js, .json, etc). Vou colocar algum texto em nosso `README.md`, apenas para ele não ficar vazio.
