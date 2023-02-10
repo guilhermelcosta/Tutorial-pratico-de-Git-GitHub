@@ -74,7 +74,7 @@ Após finalizar o download, basta seguir o fluxo normal de instalação até que
    - `git config --global user.name <usuario>` &rarr; Exemplo prático: `git config --global user.name "James Manteiguinha"`.
 
 
-   - `git config --global user.email <email>` &rarr; Exemplo prático: `git config --global user.email james.manteiguinha@email.com"`.
+   - `git config --global user.email <email>` &rarr; Exemplo prático: `git config --global user.email "james.manteiguinha@email.com"`.
 
 
    - Note que o terminal não irá apresentar nenhuma informação depois que inserirmos esses dois códigos. Esse é um comportamento esperado, ele só irá retornar algo em caso de erro.
