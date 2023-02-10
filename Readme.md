@@ -23,6 +23,8 @@ Após download, basta seguir o fluxo normal de instalação até que ela seja fi
 2. Com o Visual Studio Code (VS Code) aberto, clique em "Open folder..." para abrir a pasta que acabamos de criar (ou Ctrl+K > Ctrl+O).
    - Caso você não tenha o VS Code instalado, o download pode ser feito [clicando aqui](https://code.visualstudio.com/download).
 
-<img width="300px" height="400px" src="./assets/img/open-folder.jpg">
+    <img width="300px" height="400px" src="./assets/img/open-folder.jpg">
 
-3.
+3. Vamos criar um arquivo `README.md` em nossa pasta. Esse arquivo será utilizado apenas como referência que no tutorial, mas a mesma sequência se aplicaria para quaisquer arquivos que você criasse em sua pasta (.html, .js, .json, etc). Vamos colocar algum texto em nosso `README.md`, apenas para ele não ficar vazio.
+
+    <img width="400px" height="300px" src="./assets/img/criando-README.jpg">
