@@ -36,9 +36,11 @@ A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficie
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_IV.2 - Interface GitHub para visualização de branchs_](#iv2-interface-github-para-visualização-de-branchs)
 
-### &nbsp;&nbsp;&nbsp; V - Junção de branchs (merge) (em desenvolvimento)
+### &nbsp;&nbsp;&nbsp; V - Unir conteúdo de duas branchs diferentes (em desenvolvimento)
 
-### &nbsp;&nbsp;&nbsp; VI - Pull requests (em desenvolvimento)
+### &nbsp;&nbsp;&nbsp; VI - Clonando um repositório remoto para o seu computador (em desenvolvimento)
+
+### &nbsp;&nbsp;&nbsp; VII - Pull requests (em desenvolvimento)
 
 ---
 
