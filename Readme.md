@@ -30,7 +30,11 @@ A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficie
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_III.3 - Baixando os arquivos remotos para o repositório local_](#iii3-baixando-os-arquivos-remotos-para-o-repositório-local)
 
-### &nbsp;&nbsp;&nbsp; IV - Criação de diferentes branchs (em desenvolvimento)
+### &nbsp;&nbsp;&nbsp; [IV - Criação de diferentes branchs](#iv-criação-de-diferentes-branchs)
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_IV.1 - Alterar entre branchs diferentes_](#iv1-alterar-entre-branchs-diferentes)
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_IV.2 - Interface GitHub para visualização de branchs_](#iv2-interface-github-para-visualização-de-branchs)
 
 ### &nbsp;&nbsp;&nbsp; V - Junção de branchs (merge) (em desenvolvimento)
 
@@ -60,7 +64,7 @@ Nessa sessão, vou mostrar como você pode criar um repositório local em seu co
 
 3. Vamos criar um arquivo `README.md` em nossa pasta. Esse arquivo será utilizado apenas como referência no tutorial, mas a mesma sequência de passos se aplicaria para quaisquer arquivos que você criasse em sua pasta (.html, .js, .json, etc). Vou colocar algum texto em nosso `README.md`, apenas para ele não ficar vazio.
 
-<img src="./assets/img/criando-README.jpg">
+   <img src="./assets/img/criando-README-att.jpg">
 
 4. Vá até a pasta que você criou no item 1, e, clicando com botão direito dentro dela, clique em `Git Bash Here`, isso fará com que o terminal do Git Bash seja aberto.
 
@@ -68,7 +72,7 @@ Nessa sessão, vou mostrar como você pode criar um repositório local em seu co
 
    - Uma janela semelhante a essa será aberta:
 
-       <img src="./assets/img/pagina-gitbash.jpg">
+       <img src="./assets/img/pagina-gitbash-att.jpg">
 
 5. A primeira coisa que precisamos fazer ao usar o Git Bash pela primeira vez é configurar nosso `user name` e `e-mail`. Para isso vamos usar os seguintes códigos (um de cada vez):
 
@@ -181,3 +185,35 @@ Conforme pode ser verificado, o terminal nos informa que houve uma modicação n
 Agora que já conferimos as alterações realizadas, para baixar elas para o nosso repositório local, basta usar o comando `git pull` e pronto! todas os seus arquivos já serão atualizados.
 
    <img src="./assets/img/git-pull.jpg">
+
+### IV. Criação de diferentes branchs
+
+Até o momento, a nossa única branch é a `main`. No entanto, vamos supor que você esteja desenvolvendo uma nova funcionalidade e, por algum motivo, o seu código foi prejudicado por isso. Como prevenir que essas mudanças "estraguem" um código que já estava consolidado? simples, com o uso de branchs diferentes.
+
+Para criar a nova branch, basta usar o comando `git branch <nome da branch>`. Para fins de teste, eu criei a branch `teste-branch` no nosso repositório. Em seguida, para conferirmos se essa branch realmente foi criada, use o comando `git branch`, que irá listas todas as branchs atuais do repositório.
+
+   <img src="./assets/img/criacao-branch.jpg">
+
+Veja que a branch `main` está destacada em verde, pois é a nossa branch que estamos trabalhando no momento, e a branch `teste-branch` abaixo dela.
+
+### _IV.1 Alterar entre branchs diferentes_
+
+Para alterar entre as branchs, use o comando `git checkout <nome da branch>`. No nosso exemplo, seria `git checkout teste-branch`.
+
+   <img src="./assets/img/alteracao-branch.jpg">
+
+### _IV.2 Interface GitHub para visualização de branchs_
+
+Para visualizar melhor a questão das branchs, eu fiz uma alteração no arquivo `README.md`, no qual adicionei na linha 5 a seguinte frase: "Essa modificação foi feita na branch `teste-branch`". Seguindo o mesmo passo a passo da primeira sessão do tutorial, vou dar o push nessas alterações que fiz, utilizando os comandos `git add .`, `git commit -m "feat: adicionada teste-branch"` e `git push origin teste-branch`.
+
+Em seu repositório remoto do GitHub, observe agora que na parte superior, ao lado de `main`, vai estar indicado que existem duas branchs. Conforme ilustrado abaixo.
+
+   <img src="./assets/img/duas-branchs.jpg">
+
+Para alternar entre elas, clique no botão de `main` e selecione a outra branch que deseja visualizar.
+
+   <img src="./assets/img/troca-branch.jpg">
+
+No caso do exemplo acima, note que após alterar para a branch `teste-branch`, o `README.me` é alterado para a sua nova versão, que possui a linha adicional que eu escrevi (Compare a primeira figura com a abaixo). Essa linha existe apenas na branch `teste-branch`, e não na `main`.
+
+   <img src="./assets/img/dif-branch.jpg">
