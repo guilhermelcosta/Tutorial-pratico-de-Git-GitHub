@@ -36,11 +36,11 @@ A importância do Git e do GitHub é que eles fornecem uma forma fácil e eficie
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [_IV.2 - Interface GitHub para visualização de branchs_](#iv2-interface-github-para-visualização-de-branchs)
 
-### &nbsp;&nbsp;&nbsp; V - Unir conteúdo de duas branchs diferentes (em desenvolvimento)
+### &nbsp;&nbsp;&nbsp; [V - Unir conteúdo de duas branchs diferentes](#v-unir-conteúdo-de-duas-branchs-diferentes)
 
-### &nbsp;&nbsp;&nbsp; VI - Clonando um repositório remoto para o seu computador (em desenvolvimento)
+### &nbsp;&nbsp;&nbsp; [VI - Clonando um repositório remoto para o seu computador](#vi-clonando-um-repositório-remoto-para-o-seu-computador)
 
-### &nbsp;&nbsp;&nbsp; VII - Pull requests (em desenvolvimento)
+### &nbsp;&nbsp;&nbsp; [VII - Fechamento e lista de comandos Git](#vii-fechamento)
 
 ---
 
@@ -219,3 +219,15 @@ Para alternar entre elas, clique no botão de `main` e selecione a outra branch 
 No caso do exemplo acima, note que após alterar para a branch `teste-branch`, o `README.me` é alterado para a sua nova versão, que possui a linha adicional que eu escrevi (Compare a primeira figura com a abaixo). Essa linha existe apenas na branch `teste-branch`, e não na `main`.
 
    <img src="./assets/img/dif-branch.jpg">
+
+### V. Unir conteúdo de duas branchs diferentes
+
+Para unir duas branchs diferentes, use o comando `git merge <nome da branch>`. Lembre-se, você ira juntar a branch indicada no código na branch que você está usando no momento. Ou seja, se eu quero juntar o conteúdo de `teste-branch` em `main`, eu preciso estar com a branch `main` ativa, e utilizar o comando `git merge teste-branch`, por exemplo.
+
+### VI. Clonando um repositório remoto para o seu computador
+
+Utilize o comando `git clone <link do repositório>` para clonar um respotiório remoto para o seu computador. Eu ensinei onde conseguir o link do repositório no tópico II.3.
+
+### VII. Fechamento e lista de comandos Git
+
+Eu mostrei como você pode criar um repositório do zero neste tutorial. No entanto, não foram mostrados todos os comandos do Git, uma vez que alguns deles podem ser bastante específicos na maioria das vezes. Como ninguem é obrigado a decorar nada, deixo aqui um link com a [lista dos comandos Git](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet), elaborado pela Atlassian.
